@@ -1,0 +1,15 @@
+body {
+    margin:0;
+}
+.exemplo {
+    width:500px;
+    height:200px;
+    background-color: blue; /* graus*/
+    background:linear-gradient( -90deg white,blue);
+    background:-moz-linear-gradient(white,blue); /* Caso o mozila não suporte*/
+    background: -o-linear-gradient(white,blue); /* Caso o opera não suporte */
+    background: -webkit-linear-gradient(white,blue);
+
+
+
+}

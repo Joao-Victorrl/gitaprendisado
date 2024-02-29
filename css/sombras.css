@@ -1,0 +1,12 @@
+body {
+    margin:0;
+}
+.exemplo {
+    width:150px;
+    height:150px;
+    background-color:green;
+    box-shadow: 5px 5px 5px #888888; /* esse elemento é ultilizado para colocar sombra no elemento.*/
+    margin:auto;
+    text-shadow: 1px 1px 5px #888888;
+    text-align: center;
+}
