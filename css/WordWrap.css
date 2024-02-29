@@ -1,0 +1,17 @@
+Body {
+    margin:0;
+}
+
+.container {
+    width:150px;
+    height:200px;
+    border:1px solid #000;
+    margin:auto;
+    word-wrap: break-word; /* Ultilizado para quando um testo nao couber num campo, como texto campo de input 
+    entre outros ele simplesmente quebra o testo*/
+
+}
+
+p {
+    margin:0;
+}
