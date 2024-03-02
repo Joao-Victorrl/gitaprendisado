@@ -1,5 +1,29 @@
-div {
-    width: 200px;
-    height:200px;
-    background-color: red;
+.container {
+    
+    background-color:hsl(0, 0%, 87%);
+    display: flex; /* no flex box por padrão a organização sera horizontal em forma de linha*/
+    flex-direction: row; /* colunona*/
+    flex-direction:row-reverse; /* Em formato de linha mas sera apresentaodo da esquerda para a direita*/
+    flex-direction: column-reverse; /* Formato de coluna so que na ordem inversa de baixo pra cima*/
+    margin:10px;
+
 }
+
+.conteiner2{
+    display:flex;
+    flex-direction: column;
+    background-color: #dddddd;
+    margin:10px;
+    flex:1; /* Poderia considera como um grupo, esse grupo teria duas pessoas, colocando 1, fala que o 
+    espaço disponivel sera divido para duas pessoas. Se  eu quiser que o espaço de um dos  itens seja maior 
+    que outro coloco flex 2, isso indica que o item tera  o dobro do tamanho do outro.*/
+}
+.container div,
+.container2 div{
+    background-color: #ff0000;
+    margin:10px;
+    padding:10px;
+    font-size:10px;
+      
+}
+
